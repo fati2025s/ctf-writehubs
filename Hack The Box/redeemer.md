@@ -13,6 +13,11 @@ in-memory database.
 
 **Step 3:** Used redis-cli to connect to the server and 
 retrieved the flag.
+`redis-cli -h 10.129.130.84 -p 6379`
+
+**Step 4:** Used KEYS * to saw all keys that exists on that.
+
+**Step 5:** Used GET flag to get flag.
 
 ### What I learned:
 - How to scan all ports with nmap
